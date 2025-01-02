@@ -3,9 +3,9 @@
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 .renderContent {
-  height: 61.5vh;
+  height: 39rem;
 }
