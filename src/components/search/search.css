@@ -1,11 +1,25 @@
 .search{
     display: flex;
-    height: 10vh;
-    width: 100vw;
+    flex-direction: row;
+    height: 4rem;
+    width: 90vw;
+    margin: 0 auto;
+    border: 5px solid   #ff7e5f;
+    border-radius: 1rem;
+    background-color: #a2a1a0;
+}
 
-    justify-content: center;
+input{
+    border: none;
+    width: 85%;
+    background-color: transparent;
+    outline: none;
     padding: 1rem;
-    & .input--text{
-        width: 100%;
-    }
+    font-size: 1.2rem;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    width: 15%;
 }

@@ -1,5 +1,5 @@
 header{
-    height: 6rem;
+    height: 10vh;
     width: 100vw;
     padding: 1rem;
     background: linear-gradient(to right, #fbc901, #fb4b01);
@@ -20,6 +20,6 @@ header{
     }
     & .titulo{
         width: 80vw;
-        height: 60%;
+        height: 90%;
     }
 }

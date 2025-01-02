@@ -8,6 +8,7 @@ import { Nav } from "../nav/nav";
 export const Layout = () => {
 
     return <>
+    <div className="layout">
         <Header></Header>
         <Nav></Nav>
         <Search></Search>
@@ -16,6 +17,6 @@ export const Layout = () => {
             <Outlet></Outlet>
         </div>
         <Footer></Footer>
-
+        </div>
     </>
 };
