@@ -71,11 +71,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   overflow: hidden;
+  background: url('../src/assets/background.jpeg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 html {

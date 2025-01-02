@@ -1,0 +1,25 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: 90vw;
+    margin: 0 auto;
+    border: 5px solid   #ff7e5f;
+    border-radius: 1rem;
+    background-color: #a2a1a0;
+}
+
+input{
+    border: none;
+    width: 85%;
+    background-color: transparent;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    width: 15%;
+}

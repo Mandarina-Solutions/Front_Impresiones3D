@@ -1,6 +1,6 @@
 .product{
-    height: 100%;
-    width: 100%;
+    height: 20rem;
+    width: 20rem;
     display:grid;
     grid-template-areas: 
     "image      image       image"
