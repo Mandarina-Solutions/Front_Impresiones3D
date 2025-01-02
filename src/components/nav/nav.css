@@ -1,0 +1,24 @@
+nav {
+    width: 95vw;
+    height: 6rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: #a2a1a0;
+    border: 5px solid   #ff7e5f;
+    border-radius: 1rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+
+    & a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}

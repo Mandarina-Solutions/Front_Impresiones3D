@@ -1,32 +1,4 @@
-footer{
-    height: 10%;
-    display: flex;
-    gap: 1rem;
-    justify-content: space-around;
-    align-items: center;
-    background-image: var(--color-primary-gradient);
+.renderContent {
+  width: 100vw;
+  height: 100vh;
 }
-
-.content{
-    display: flex;
-    height: 70%;
-    padding: 0 5vw 0;
-    overflow: scroll;
-}
-.detail{
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    margin-left: 1rem;
-
-    & img{
-        width: 3rem;
-        background: transparent;
-    }
-}
-.shortcuts{
-    display: flex;
-    gap: 1rem;
-    margin-right: 1rem;
-}
-

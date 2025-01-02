@@ -1,25 +1,25 @@
 header{
-    height: 10%;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: space-between;
-    background-image: var(--color-primary-gradient);
-    & button{
-        border-radius: 8px;
-        border: 1px solid transparent;
-        padding: 0.6em 1.2em;
-        font-size: 1em;
-        font-weight: 500;
-        font-family: inherit;
-        background-image: var(--color-secondary-gradient);
-        transition: 0.25s;
-        cursor: pointer;
-        &:hover{
-            /* C = blur, D = spread */
-            /* A px, B px, C px, D px */
-            box-shadow: 0px 0px 15px 0px rgb(15, 14, 14);
+    height: 6rem;
+    width: 100vw;
+    padding: 1rem;
+    background: linear-gradient(to right, #fbc901, #fb4b01);
+}
 
-        }
+.content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+    
+    & .logo{
+        width: 10vw;
+        height: 100%;
+    }
+    & .titulo{
+        width: 80vw;
+        height: 60%;
     }
 }

@@ -1,0 +1,8 @@
+footer{
+    height: 10%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    background-image: var(--color-primary-gradient);
+}
