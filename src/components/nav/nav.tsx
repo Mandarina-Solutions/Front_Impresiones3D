@@ -17,6 +17,9 @@ export const Nav = () => {
                 <NavLink to={`/contact`}>
                     <p>Carrito</p>
                 </NavLink>
+                <NavLink to={`/login`}>
+                    <p>login</p>
+                </NavLink>
             </div>
         </nav>
     )

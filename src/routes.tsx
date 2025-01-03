@@ -1,14 +1,16 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
-import { Layout } from './components/layout/layout';
-import { Home } from './views/home/home';
-import { ProductDetail } from './views/productDetail/productDetail';
-import { Contact } from './views/contact/contact';
+import { Layout } from './components/layout/layout'
+import { Home } from './views/home/home'
+import { ProductDetail } from './views/productDetail/productDetail'
+import { Contact } from './views/contact/contact'
+import { Login } from './views/login/login'
 
 export const AppRouter = () => {
     return <>
         <Router>
             <Routes>
+                <Route element={<Login/>} path={'login'}/>
                 <Route element={<Layout />}>
                     <Route element={<Home />} path={`/home`} />
                     {/* <Route element={<ProductList />} path={`/products`} /> */}
