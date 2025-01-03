@@ -1,8 +1,8 @@
 header{
-    height: 5.5rem;
+    height: 5rem;
     width: 100vw;
     padding: 1rem;
-    background: linear-gradient(to right, #fbc901, #fb4b01);
+    background: var(--colorGradietne);
 }
 
 .content{
