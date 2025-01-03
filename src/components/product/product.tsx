@@ -13,11 +13,12 @@ export const Product = ({product}:{product:product}) => {
             <img src={`${product.img}`} alt="IMG" />
             <div className="content">
                 <h5>{`${product.title}`}</h5>
+            <p className='price'>{`$ ${product.price}`}</p>
                 <p className="info">{`${product.info}`}</p>
             </div>
             <div className="actions">
-                <button className='mock' onClick={goToDetail}>Details</button>
-                <button className='mock'>Buy</button>
+                <button className='button-29' onClick={goToDetail}>Details</button>
+                <button className='button-29'>Buy</button>
             </div>
         </div>
     </>

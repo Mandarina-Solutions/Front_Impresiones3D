@@ -75,7 +75,7 @@ body {
   height: 100%;
   width: 100vw;
   overflow: hidden;
-  background: url('../src/assets/background.jpeg') no-repeat center center fixed;
+  background: url('../src/assets/BackgroundPrueba.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
