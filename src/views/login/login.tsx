@@ -1,4 +1,4 @@
-import { FormEncType, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './login.css'
 import { FormEvent, useState } from 'react'
 
@@ -13,7 +13,7 @@ export const Login = () => {
 
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => { //Hay que pasarle el e FromEvent saraza si no no lanzo warning
         e.preventDefault(); // Evita el refresco de la página porque me molesta
-        const isValid = checkValueUser()
+        isValid = checkValueUser()
         alert(`Autenticación correcta: ${isValid} valor del name =>  ${user.userName} valor del pass => ${user.pass}`)
     }
 
