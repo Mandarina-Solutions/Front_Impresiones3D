@@ -2,20 +2,20 @@ import { NavLink } from 'react-router-dom'
 import './login.css'
 import { useState } from 'react'
 
-const credential = {user: 'admin', pass: 'mandarina'}
+interface Credential {userName : string, pass: string}
+const mockCredential: Credential = {userName: 'admin', pass: 'mandarina'}
 
 export const Login = () => {
 
-    const [userName, setUserName] = useState('')
-    const [pass, setPass] = useState('')
+    const [user, setUser] = useState({userName: '', pass: ''})
 
     const handleSubmit = () => {
         const flag = checkValueUser()
-        alert(`Autenticación correcta: ${flag} valor del name =>  ${userName} valor del pass => ${pass}`)
+        alert(`Autenticación correcta: ${flag} valor del name =>  ${user.userName} valor del pass => ${user.pass}`)
     }
 
     const checkValueUser = () => {
-        return userName === credential.user && pass === credential.pass
+        return user.userName === mockCredential.userName && user.pass === mockCredential.pass
     }
 
     return(
@@ -30,8 +30,8 @@ export const Login = () => {
                         type="text" 
                         id="username" 
                         placeholder="Ingresa tu usuario" 
-                        value={userName} 
-                        onChange={(ev) => setUserName(ev.target.value)}/>
+                        value={user.userName} 
+                        onChange={(ev) => setUser({...user, userName: ev.target.value})}/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="password">Contraseña</label>
@@ -39,8 +39,8 @@ export const Login = () => {
                         type="password"
                         id="password"
                         placeholder="Ingresa tu contraseña"
-                        value={pass}
-                        onChange={(ev) => setPass(ev.target.value)}
+                        value={user.pass}
+                        onChange={(ev) => setUser({...user, pass : ev.target.value})}
                         />
                     </div>
                     <button type='submit' className="login-button">
