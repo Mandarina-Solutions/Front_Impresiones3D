@@ -8,15 +8,10 @@ import { Nav } from "../nav/nav";
 export const Layout = () => {
 
     return <>
-        <div className="layout">
-            <Header></Header>
-            <Nav></Nav>
-            <Search></Search>
-
-            <div className="renderContent">
-                <Outlet></Outlet>
-            </div>
-            <Footer></Footer>
-        </div>
+        <Header></Header>
+        <Nav></Nav>
+        <Search></Search>
+        <Outlet></Outlet>
+        <Footer></Footer>
     </>
 };

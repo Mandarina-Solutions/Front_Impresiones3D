@@ -10,7 +10,7 @@ input{
     width: 85%;
     background-color: transparent;
     outline: none;
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 2rem;
     /* margin-left: ; */
     font-size: 1.2rem;
     
@@ -20,4 +20,8 @@ button{
     background-color: transparent;
     border: none;
     width: 15%;
+    height: 100%;
+    /* padding: 1rem; */
+    margin-right: 1rem;
+    
 }

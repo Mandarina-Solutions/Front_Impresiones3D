@@ -1,3 +1,9 @@
+.aboutMe{
+    width: 98vw;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
 span{
     text-align: justify;
 }
