@@ -1,21 +1,19 @@
 .search{
-    display: flex;
-    flex-direction: row;
-    height: 3rem;
-    width: 90vw;
+    width: 85vw;
+    height: 4rem;
     margin: 0 auto;
-    border: 5px solid   #ff7e5f;
-    border-radius: 1rem;
-    background-color: #a2a1a0;
 }
+
 
 input{
     border: none;
     width: 85%;
     background-color: transparent;
     outline: none;
-    padding: 1rem;
+    padding: 0.8rem 3rem;
+    /* margin-left: ; */
     font-size: 1.2rem;
+    
 }
 
 button{

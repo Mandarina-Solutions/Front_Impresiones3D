@@ -1,10 +1,9 @@
 nav {
-    width: 99vw;
+    width: 99%;
     height: 4rem;
     margin: 0 auto;
-    background-color: #a2a1a0;
-    border: 5px solid   #ff7e5f;
-    border-radius: 1rem;
+    /* position: sticky; */
+    
 }
 
 .links {
